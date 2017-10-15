@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.edu.sise.ejemplosqlitatareas.Item">
+    <Button
+        android:layout_width="wrap_content" android:id="@+id/add"
+        android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" android:text="@string/save" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_above="@+id/add"
+        android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/idRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/identificador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/element"  />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/plaece"
+            android:hint="@string/place" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="number"
+            android:id="@+id/importance" android:hint="@string/importance" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description" android:hint="@string/description" />
+    </LinearLayout>
+
+</RelativeLayout>

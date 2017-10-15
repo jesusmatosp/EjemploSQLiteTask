@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EjemploSQLitaTareas</string>
+    <string name="newItem">Agregar Item</string>
+    <string name="save">Salvar</string>
+    <string name="element">Producto</string>
+    <string name="place">Lugar</string>
+    <string name="importance">Importancia</string>
+    <string name="description">Descripción</string>
+    <string name="pending">Pendiente</string>
+    <string name="lstNoElements">Sin Elementos</string>
+</resources>
